@@ -44,14 +44,14 @@ function App() {
   const [questions, setQuestions] = useState(defaultQuestions);
   const [sortedQuestions, setSortedQuestions] = useState([]);
 
-  const handleAddQuestion = (value) => {
+  const handleAddQuestion = (value, isAnon) => {
     setQuestions(
       [...questions, 
       {id: (questions.length + 1), 
         question: value,
         submitter: 'Angela', 
         isAnswered: false, 
-        isAnonymous: false, 
+        isAnonymous: isAnon, 
         voteCount: 1 
       }]);
   }
