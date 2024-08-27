@@ -1,6 +1,7 @@
 import './App.css';
 import QuestionForm from './components/form';
 import QuestionCard from './components/question';
+import AppNavbar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from 'react';
 
@@ -74,25 +75,28 @@ function App() {
   }, [questions]);
 
   return (
-    <div className="App">
-      <h1>Poll</h1>
-      <h3>Add a Question</h3>
-      <QuestionForm 
-        handleAddQuestion={handleAddQuestion}
-      />
-      <h3>Vote on Submitted Questions</h3>
-      {sortedQuestions.map(element => 
-        <QuestionCard
-          key={element.id}
-          id={element.id} 
-          question={element.question}
-          votes={element.voteCount}
-          handleUpVote={handleUpVote}
-          handleDownVote={handleDownVote} 
-          submitter={element.submitter}
-          isAnon={element.isAnonymous}
-        />)}
-    </div>
+    <>
+    <AppNavbar />
+      <div className="App">
+        <h1>Poll</h1>
+        <h3>Add a Question</h3>
+        <QuestionForm 
+          handleAddQuestion={handleAddQuestion}
+        />
+        <h3>Vote on Submitted Questions</h3>
+        {sortedQuestions.map(element => 
+          <QuestionCard
+            key={element.id}
+            id={element.id} 
+            question={element.question}
+            votes={element.voteCount}
+            handleUpVote={handleUpVote}
+            handleDownVote={handleDownVote} 
+            submitter={element.submitter}
+            isAnon={element.isAnonymous}
+          />)}
+      </div>
+    </>
   );
 }
 

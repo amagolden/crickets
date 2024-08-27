@@ -41,7 +41,7 @@ const QuestionForm = ({ handleAddQuestion }) => {
             </Col>
             <Col xs="auto" className="mb-0 mt-1">
                 <button 
-                    className='form-button btn btn-info'
+                    className='form-button btn btn-success'
                     type='submit' 
                     value='Add Question' 
                     >Add
