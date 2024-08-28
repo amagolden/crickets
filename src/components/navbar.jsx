@@ -10,15 +10,15 @@ const AppNavbar = () => {
               <Navbar.Brand href="/">
               <img
                 alt=""
-                src="/logodark.png"
+                src="/whitecricket.png"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
                 />{' '}
                 crickets</Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link href="#polls">Polls</Nav.Link>
-                <Nav.Link href="#allhands">All Hands</Nav.Link>
+                <Nav.Link href="/">Poll</Nav.Link>
+                <Nav.Link href="/allhands">All Hands</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
