@@ -78,7 +78,7 @@ function PollsPage() {
     <>
     <AppNavbar />
       <div className="polls-page">
-        <h1>Poll</h1>
+        <h1>Cricket Poll</h1>
         <h3>Add a Question</h3>
         <QuestionForm 
           handleAddQuestion={handleAddQuestion}

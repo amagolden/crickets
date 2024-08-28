@@ -17,8 +17,8 @@ const AppNavbar = () => {
                 />{' '}
                 crickets</Navbar.Brand>
               <Nav className="me-auto">
-                <Nav.Link href="/">Poll</Nav.Link>
                 <Nav.Link href="/allhands">All Hands</Nav.Link>
+                <Nav.Link href="/polls">Polls</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
