@@ -9,10 +9,6 @@ function WelcomePage() {
     <AppNavbar />
       <div className="polls-page">
         <h1>Welcome!</h1>
-        <div className="p-3 mb-2 bg-light text-grey">
-          <p>"Does anyone have any questions?".... *crickets*</p>
-          <p>Crickets are the sound of <b>disengaged</b> employees. We're on a mission to improve team communication and <b>elimate crickets</b>.</p>
-        </div>
         <h3>Manage Communications</h3>
         <p>
             <button 
