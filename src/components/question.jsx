@@ -1,11 +1,11 @@
-import { useState } from 'react';
+//import { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { BsHandThumbsUpFill, BsFillHandThumbsDownFill } from "react-icons/bs";
 
 
 const QuestionCard = ({ id, question, votes, handleUpVote, handleDownVote, submitter, isAnon }) => {
     
-    const [value, setValue] = useState(question);
+    //const [value, setValue] = useState(question);
     
     return (
         <Card className="mb-4">

@@ -17,7 +17,7 @@ let defaultQuestions = [
   {
     id: 2,
     question: 'We would like new food in the cafeteria',
-    submitter: 'Angela',
+    submitter: 'Larissa',
     isAnswered: false,
     isAnonymous: false,
     voteCount: 1,
@@ -25,7 +25,7 @@ let defaultQuestions = [
   {
     id: 3,
     question: 'When is our Halloween party?',
-    submitter: 'Angela',
+    submitter: 'Ashley',
     isAnswered: false,
     isAnonymous: false,
     voteCount: 1,
