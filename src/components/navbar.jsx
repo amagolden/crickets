@@ -19,6 +19,7 @@ const AppNavbar = () => {
               <Nav className="me-auto">
                 <Nav.Link href="/allhands">All Hands</Nav.Link>
                 <Nav.Link href="/polls">Polls</Nav.Link>
+                <Nav.Link href="/pulse">Pulse</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
