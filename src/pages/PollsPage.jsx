@@ -72,6 +72,7 @@ function PollsPage() {
   useEffect(() => {
     const sorted = questions.sort((a, b) => b.voteCount - a.voteCount);
     setSortedQuestions(sorted);
+    //console.log('useeffect was triggered');
   }, [questions]);
 
   return (
