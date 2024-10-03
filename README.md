@@ -14,7 +14,7 @@ This is a frontend prototype built with React and Node.js. The prototype allows 
 
 ### Installing
 
-* code can be found at github.com/amagolden/crickets
+* code can be found [here] (https://github.com/amagolden/crickets)
 
 ### Executing program
 
@@ -27,7 +27,7 @@ npm start
 
 Contributors names and contact info
 
-* Angela Goldenstein (amagolden.github.io)
+* Angela Goldenstein [portfolio] (https://amagolden.github.io)
 
 ## Version History
 
@@ -41,4 +41,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [create-react-app](create-react-app.dev)
+* [create-react-app](https://create-react-app.dev)
