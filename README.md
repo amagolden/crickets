@@ -6,32 +6,33 @@ Poll for crowdsourcing employee questions
 
 Users can submit, view, and vote for their top questions. Polls are created and shared with teams ahead of an all-team or all-company meeting. Questions are ranked for leaders to address - driving transparancy & engagement within an organization.
 
+## Dependencies
+
+This is a frontend prototype built with React and Node.js. The prototype allows users to interact with the poll and vote on submissions. It does not allow users to create an account, save data, or create their own polls.
+
 ## Getting Started
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* code can be found at github.com/amagolden/crickets
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* clone code locally and run the following command
 ```
-code blocks for commands
+npm start
 ```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Angela Goldenstein
-ex. [amagolden](amagolden.github.io)
+* Angela Goldenstein (amagolden.github.io)
 
 ## Version History
 
 * 0.1
-    * Initial Release
+    * Initial Release - prototype of concept
 
 ## License
 
@@ -40,4 +41,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [create-react-app]
+* [create-react-app](create-react-app.dev)
